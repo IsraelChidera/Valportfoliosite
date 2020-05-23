@@ -1,0 +1,148 @@
+#navbar {
+	flex-direction: column;
+}
+
+#navbar .logo {
+	text-align: center;
+	background: none;
+}
+
+#navbar .logo a {
+	color: lightblue;
+}
+
+#navbar .nav_list li a {
+	font-size: 13px;
+	font-weight: 300px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	margin-right: 10px;
+}
+
+.nav_list {
+	margin: 1rem auto;
+}
+
+/*header content*/
+.header-content h3 {
+	font-size: 2.5rem;
+}
+
+.header-content h1 {
+	font-size: 4.5rem;
+}
+
+#profile {
+	line-height: 1.8;
+}
+
+#profile h1 {
+	font-size: 3rem;
+}
+
+/*extra added*/
+.extra {
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 1.0rem;
+	padding: 2rem;
+}
+
+
+/*inspiration series quote*/
+#quote {
+	padding: 20px;
+	margin: 5rem auto;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0.5rem;
+}
+
+/*about*/
+#about {
+	display: block;
+	margin: 4rem auto;
+	max-width: 1100px;
+	color: white;
+	background: #334;
+}
+
+#about .about_img {
+	/*max-width: 270px;*/
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.about_profile {
+	margin-left: 0px;
+	text-align: center;
+}
+
+/*container*/
+.container {
+	display: block;
+	margin-top: 7rem;
+	margin-bottom: 7rem;
+}
+
+.con {
+	display: block;
+}
+
+/*article project*/
+.project_list {
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 6rem;
+	padding: 5px;
+}
+
+.single_project {
+	width: 300px;
+	margin: 2rem auto;
+}
+
+/*subscribe*/
+.bg_subscribe {
+	display: block;
+	margin: 2rem auto;
+	justify-content: center;
+	padding: 10px;
+}
+
+.bg_subscribe > img {
+	display: none;
+}	
+
+.bg_subscribe div h2 {
+	font-size: 3rem;
+}
+
+.bg_subscribe div h3 {
+	font-size: 4rem;
+}
+
+.bg_subscribe div p {
+	display: none;
+}
+
+/*Engage with Val*/
+#engage {
+	height: 70vh;
+}
+
+.bg_engage {
+	margin: auto;
+}
+
+.bg_engage h1{
+	font-size: 4.0rem;
+}
+
+/*footer*/
+footer {
+	background: teal;
+}
+
+
